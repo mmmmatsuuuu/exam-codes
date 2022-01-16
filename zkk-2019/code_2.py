@@ -45,7 +45,7 @@ syo   = ninzu // 4
 amari = ninzu % 4
 
 for i in range(1, ninzu+1, 1):
-    g = Kibo[i][1]
+    g         = Kibo[i][1]
     Kibosu[g] = Kibosu[g] + 1
 
 for i in range(1, 4+1, 1):
@@ -62,15 +62,15 @@ for i in range(1, amari+1, 1):
 
 for i in range(1, ninzu+1, 1):
     owari = 0
-    j = 1
+    j     = 1
 
     while owari != 1:
         koho = Kibo[i][j]
         if Gninzu[koho] < Gteiin[koho]:
-            x = Gninzu[koho] + 1
-            Gninzu[koho] = x
+            x                 = Gninzu[koho] + 1
+            Gninzu[koho]      = x
             Huriwake[koho][x] = Namae[i]
-            owari = 1
+            owari             = 1
     
         j = j + 1
 
