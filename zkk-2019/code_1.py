@@ -51,10 +51,10 @@ for i in range(1, ninzu+1, 1):
         koho = Kibo[i][j]
 
         if Gninzu[koho] < teiin:
-            x = Gninzu[koho] + 1
-            Gninzu[koho] = x
+            x                 = Gninzu[koho] + 1
+            Gninzu[koho]      = x
             Huriwake[koho][x] = Namae[i]
-            owari = 1
+            owari             = 1
 
             if Gninzu[koho] == teiin:
                 g = g + 1
