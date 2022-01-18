@@ -18,4 +18,5 @@ JavaScript -> JavaScript ES6
 
 |科目|年度|言語|追加日|
 |----|----|----|----|
+|情報関係基礎|2022|python, JavaScript|2022/01/18|
 |情報関係基礎|2019|python, JavaScript|2022/01/16|
