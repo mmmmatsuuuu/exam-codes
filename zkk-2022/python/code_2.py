@@ -1,5 +1,4 @@
 # =================================================================
-# tate   : 縦線の本数を表す変数
 # yoko   : 横線の本数を表す変数
 # Yokosen: 横線の位置の情報を表す整数の配列
 #          例) Yokosen[y] = x <=> 上からy番目の横線が左からx番目の縦線と
@@ -8,7 +7,6 @@
 # 
 # 配列の番号は１から始まっているのでどの配列も最初の要素は捨て要素になっている。
 # =================================================================
-tate    = 3
 yoko    = 4
 Yokosen = ["捨て要素", 2, 1, 2, 1]
 Koma    = ["捨て要素", 1, 2, 3]
@@ -47,7 +45,7 @@ def print_amidakuji(tate, yoko, Yokosen):
 # 図５
 # =================================================================
 print_array(Koma)
-print_amidakuji(len(Koma), yoko, Yokosen)
+print_amidakuji(len(Koma)-1, yoko, Yokosen)
 
 for y in range(1, len(Yokosen), 1):
     t = Koma[Yokosen[y]]
